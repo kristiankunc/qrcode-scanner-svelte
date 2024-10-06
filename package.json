@@ -3,7 +3,9 @@
 	"version": "1.0.6",
 	"exports": {
 		".": {
-			"svelte": "index.js"
+			"import": "./src/lib/index.js",
+			"require": "./src/lib/index.js",
+			"svelte": "./src/lib/index.js"
 		}
 	},
 	"main": "index.js",
